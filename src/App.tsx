@@ -42,7 +42,7 @@ const App=()=>{
 
     return (
         <div className="tc">
-       <h1 style={{color:'#fffffe',letterSpacing: 12,fontFamily:'sans-serif'}}> RoboFriend</h1>
+       <h1 style={{color:'#8ed1a3',letterSpacing: 12,fontFamily:'Bruno Ace SC'}}> RoboFriend</h1>
         <Searchbox  searchChange={onSearchChange}/> 
         <Scroll>
         <CardList robots={filteredrobot} />
